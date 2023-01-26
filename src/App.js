@@ -1,13 +1,14 @@
 import React from 'react'
-import Rotas from './Routes/Rotas'
+import Header from './Components/Header'
+import Rotas from "./Routes/Rotas"
+
 
 
 const App = () => {
   return (
     <div>
-<h1>Ola mundo</h1>
-      <h2>Ola</h2>
-      <Rotas/>
+<Header/>
+<Rotas/>
     </div>
   )
 }
