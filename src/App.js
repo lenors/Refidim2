@@ -1,5 +1,7 @@
 import React from 'react'
-import Header from './Components/Header'
+import { GlobalStyle } from './Styles/Global'
+import StyleHeader from './Styles/StylesHeader'
+
 import Rotas from "./Routes/Rotas"
 
 
@@ -7,7 +9,7 @@ import Rotas from "./Routes/Rotas"
 const App = () => {
   return (
     <div>
-<Header/>
+      <GlobalStyle/>
 <Rotas/>
     </div>
   )

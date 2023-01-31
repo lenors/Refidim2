@@ -1,8 +1,12 @@
 import React from 'react'
+import Header from '../Components/Header'
 
 const Sobre = () => {
   return (
-    <div>Sobre</div>
+    <div>   
+      <Header/>
+       <h1>Sobre</h1>
+    </div>
   )
 }
 
